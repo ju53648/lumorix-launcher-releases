@@ -1,28 +1,43 @@
-﻿# Lumorix Launcher – Official Downloads
+<div align="center">
 
-The Lumorix Launcher is a Windows desktop application for installing and managing Lumorix products.
+# LUMORIX LAUNCHER
 
-## Download
+**Your Lumorix library. One place.**
 
-**[Get the latest Windows release](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)**
+[![Latest release](https://img.shields.io/github/v/release/ju53648/lumorix-launcher-releases?label=latest%20version&color=91caff)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
+![Windows x64](https://img.shields.io/badge/platform-Windows%20x64-16273b)
+![Downloads only](https://img.shields.io/badge/repository-downloads%20only-16273b)
 
-Each version contains:
-- a Windows x64 installer
-- a matching Tauri updater signature (.exe.sig)
-- signed-update metadata (latest.json)
+### [Download Lumorix Launcher for Windows →](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
 
-## Automatic updater
+Official Windows installers, release notes and updater files.
 
-Latest update manifest:
-https://github.com/ju53648/lumorix-launcher-releases/releases/latest/download/latest.json
+</div>
 
-The installer is currently signed for application updates via Tauri, but Windows may display an unknown-publisher warning until a Windows publisher certificate is configured.
+---
 
-## Source code and catalog
+### Get started
 
-This is a downloads-only repository. **The Lumorix Launcher source repository is private** and is not mirrored here.
+1. Open the **[latest release](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)**.
+2. Download `Lumorix.Launcher_..._x64-setup.exe`.
+3. Run the installer, then open **Lumorix Launcher**.
 
-Game catalog and compiled content:
-https://github.com/ju53648/lumorix-launcher-content
+> **Windows security notice:** Windows may show an *Unknown publisher* warning because the installer does not yet have a trusted Windows publisher certificate. The separate `.sig` file is used by the launcher's built-in Tauri updater; it is **not** a Windows Authenticode publisher signature.
 
-For help, use the official Lumorix website: https://lumorix.net
+### Release files
+
+| File | Purpose |
+| --- | --- |
+| **Windows installer** (`.exe`) | Install or update Lumorix Launcher on Windows x64 |
+| **Updater signature** (`.exe.sig`) | Verify updates installed through the Launcher |
+| **Update manifest** (`latest.json`) | Tell the Launcher which version and package are available |
+
+The Launcher uses the **[latest update manifest](https://github.com/ju53648/lumorix-launcher-releases/releases/latest/download/latest.json)** automatically. You normally only need the Windows installer.
+
+### Official links
+
+**[Lumorix website](https://lumorix.net)** · **[Latest releases](https://github.com/ju53648/lumorix-launcher-releases/releases)** · **[Public game catalog](https://github.com/ju53648/lumorix-launcher-content)**
+
+---
+
+<sub>This is a **distribution-only repository**. The Lumorix Launcher source code, development files and internal build configuration are kept in a separate **private** repository.</sub>
