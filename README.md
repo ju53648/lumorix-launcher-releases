@@ -6,77 +6,59 @@
 
 Your games, downloads and updates in one desktop launcher.
 
-[![Latest release](https://img.shields.io/github/v/release/ju53648/lumorix-launcher-releases?label=latest%20version&color=15897b)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
-![Windows](https://img.shields.io/badge/Windows-available-21856f)
-![macOS](https://img.shields.io/badge/macOS-in%20development-596779)
+[![Latest release](https://img.shields.io/github/v/release/ju53648/lumorix-launcher-releases?label=latest%20release&color=15897b)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
+![Platform](https://img.shields.io/badge/platform-Windows%20x64-263444)
+![Official downloads](https://img.shields.io/badge/source-official%20downloads-263444)
 
-### [Download VENSUKO 0.13.0 for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
+### [Download VENSUKO Launcher for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
 
-[Read the 0.13.0 release notes](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0)
+**Current version: 0.13.0** · [Release notes](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0)
 
 </div>
 
 ---
 
-## Downloads
+## Download
 
 ### Windows · 64-bit
 
-**Available — version 0.13.0**
+**[Download VENSUKO Launcher 0.13.0 (.exe)](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)**
 
-[**Download Windows installer (.exe)**](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
+1. Download the Windows installer above.
+2. Run the installer and launch VENSUKO.
+3. Future launcher updates are checked through the built-in signed updater.
 
-Run the installer and open VENSUKO. Automatic Windows launcher updates continue through the built-in signed updater.
+## What's new in version 0.13.0?
 
-### macOS · Apple Silicon (M-series) and Intel
+- Subtle interaction sounds for buttons, navigation and switches.
+- New sound settings: on/off, volume adjustment and preview.
+- Locally saved sound preferences that do not affect audio inside games.
 
-**In development — not available for public download yet.**
+## Official release files
 
-Native Mac versions are being prepared for both Apple Silicon (arm64) and Intel (x64). The official Mac release will appear here **only after**:
+| File | Purpose |
+| :--- | :--- |
+| `VENSUKO.Launcher_0.13.0_x64-setup.exe` | Windows 64-bit installer |
+| `VENSUKO.Launcher_0.13.0_x64-setup.exe.sig` | Signature for the built-in Tauri updater |
+| `latest.json` | Automatic Windows update manifest |
 
-- Both architectures build and pass compatibility checks.
-- The application is signed with an **Apple Developer ID** and **notarized** by Apple.
-- Gatekeeper checks and installation tests are successful.
-- Login, secure Keychain storage, downloads, interface sounds and general launcher behavior have been tested on macOS.
-
-There is currently **no approved macOS installer**. We do not provide unverified builds as if they were complete releases. In particular, Windows-only games are not automatically compatible with macOS.
-
-### What is new in 0.13.0?
-
-- Discreet sounds for clicks, navigation and toggles.
-- Sound settings: on/off, volume and preview.
-- Your preferences are stored locally and do not change game audio.
-
-## Release files and security
-
-**Windows assets**
-- `VENSUKO.Launcher_0.13.0_x64-setup.exe` — official Windows 64-bit installer.
-- `VENSUKO.Launcher_0.13.0_x64-setup.exe.sig` — Tauri updater signature (not a Windows publisher signature).
-- `latest.json` — Windows auto-update manifest; **not** a macOS installer.
-
-> **Windows security notice:** Windows may display an “Unknown publisher” warning because the Windows installer does not currently have a trusted Authenticode publisher certificate. The `.sig` file protects the built-in update process.
-
-The Mac download section will only be enabled when its certified installers are released. No manual macOS updater is currently distributed.
+> **Windows security notice:** Windows may display an *Unknown publisher* warning because the installer does not yet carry a trusted Authenticode publisher certificate. The `.exe.sig` file is for verifying launcher updates; it is not a Windows publisher certificate.
 
 ## Official links
 
-[**All releases**](https://github.com/ju53648/lumorix-launcher-releases/releases) · [**Game catalog**](https://github.com/ju53648/lumorix-launcher-content) · [**Official website**](https://lumorix.net)
+[**All releases**](https://github.com/ju53648/lumorix-launcher-releases/releases) · [**Public game catalog**](https://github.com/ju53648/lumorix-launcher-content) · [**Lumorix website**](https://lumorix.net)
 
 <details>
-<summary><strong>Deutsch – Download und Plattformen</strong></summary>
+<summary><strong>Deutsch – VENSUKO herunterladen</strong></summary>
 
-### Windows 64 Bit
+**VENSUKO Launcher 0.13.0 für Windows (64 Bit):** [Installer direkt herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe).
 
-**VENSUKO 0.13.0 ist verfügbar.** [Windows-Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe). Das Update enthält neue dezente Oberflächensounds mit Lautstärkeregler, Ein-/Ausschalter und Hörprobe.
+Version 0.13.0 bringt dezente Oberflächensounds mit Lautstärkeregler, Ein-/Ausschalter und Hörprobe. Die Einstellungen werden lokal gespeichert. Die automatische Update-Funktion für Windows bleibt erhalten.
 
-### macOS – Apple Silicon und Intel
-
-**Noch nicht veröffentlicht.** Eine reguläre Mac-Version ist in Entwicklung. Vor der Freigabe werden die Installationsdateien für beide Architekturen geprüft, mit einer Apple Developer ID signiert, von Apple notarisiert und auf macOS getestet.
-
-Aktuell gibt es keinen freigegebenen Mac-Download. Windows-Spiele sind dadurch nicht automatisch auf einem Mac nutzbar.
+Bei der Installation kann Windows eine Warnung wegen eines unbekannten Herausgebers anzeigen. Die separate Updater-Signatur ist keine Windows-Herausgebersignatur.
 
 </details>
 
 ---
 
-<sub>Official download repository only. Application source code and internal developer tooling are maintained privately.</sub>
+<sub>This is the official **distribution-only repository**. Application source, credentials and internal development files remain private.</sub>
