@@ -6,7 +6,7 @@
 
 Your games, downloads and updates in one desktop launcher.
 
-[![Latest release](https://img.shields.io/github/v/release/ju53648/lumorix-launcher-releases?label=latest%20release&color=15897b)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
+[![Latest release](https://img.shields.io/badge/latest%20release-0.13.1-15897b)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-Windows%20x64-263444)
 ![Official downloads](https://img.shields.io/badge/source-official%20downloads-263444)
 
