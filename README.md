@@ -4,81 +4,79 @@
 
 **Games. Software. Beyond.**
 
-Your games, downloads and updates. One desktop launcher.
+Your games, downloads and updates in one desktop launcher.
 
 [![Latest release](https://img.shields.io/github/v/release/ju53648/lumorix-launcher-releases?label=latest%20version&color=15897b)](https://github.com/ju53648/lumorix-launcher-releases/releases/latest)
-![Windows x64](https://img.shields.io/badge/Windows-x64-263444)
-![Mac Apple Silicon + Intel](https://img.shields.io/badge/macOS-Apple%20Silicon%20%2B%20Intel-263444)
-![Official distribution](https://img.shields.io/badge/repository-official%20downloads-263444)
+![Windows](https://img.shields.io/badge/Windows-available-21856f)
+![macOS](https://img.shields.io/badge/macOS-in%20development-596779)
 
-### [Download for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
+### [Download VENSUKO 0.13.0 for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
 
-**0.13.0 – Interface Sounds** · [View release files](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0)
+[Read the 0.13.0 release notes](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0)
 
 </div>
 
 ---
 
-## Download VENSUKO
+## Downloads
 
-| Platform | Installer | Status |
-| :--- | :--- | :--- |
-| **Windows 64-bit** | [Download VENSUKO 0.13.0 (.exe)](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe) | **Available** |
-| **Mac – Apple Silicon (M-series)** | [Check 0.13.0 release for arm64 DMG](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0) | Preview build in progress |
-| **Mac – Intel** | [Check 0.13.0 release for x64 DMG](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0) | Preview build in progress |
+### Windows · 64-bit
 
-**macOS release status:** Separate native builds for Apple Silicon and Intel are in verification. Mac installers are downloadable **only after** the corresponding DMG appears in the [official release assets](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0). Links above do not claim the Mac downloads are already available.
+**Available — version 0.13.0**
 
-## What's new in 0.13.0
+[**Download Windows installer (.exe)**](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe)
 
-- Subtle interface feedback for buttons, navigation and toggles.
-- New audio settings: enable/disable sounds, adjust volume and listen to a sample.
-- Local settings; game sound and background music remain unaffected.
+Run the installer and open VENSUKO. Automatic Windows launcher updates continue through the built-in signed updater.
 
-### Install on Windows
+### macOS · Apple Silicon (M-series) and Intel
 
-1. [Download the Windows x64 installer](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe).
-2. Run the installer and open VENSUKO Launcher.
-3. The built-in **Windows** updater checks signed future launcher updates.
+**In development — not available for public download yet.**
 
-> **Windows publisher notice:** Windows may show “Unknown publisher”. The launcher updater's `.exe.sig` verifies updater artifacts, **not** Windows Authenticode publisher identity.
+Native Mac versions are being prepared for both Apple Silicon (arm64) and Intel (x64). The official Mac release will appear here **only after**:
 
-### Install on macOS (preview)
+- Both architectures build and pass compatibility checks.
+- The application is signed with an **Apple Developer ID** and **notarized** by Apple.
+- Gatekeeper checks and installation tests are successful.
+- Login, secure Keychain storage, downloads, interface sounds and general launcher behavior have been tested on macOS.
 
-1. When published, download the appropriate `.dmg` from the [0.13.0 assets](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0): `macos-arm64` for Apple Silicon, `macos-x64` for Intel.
-2. Follow the installation instructions for the preview.
-3. **macOS launcher updates are manual** for now.
+There is currently **no approved macOS installer**. We do not provide unverified builds as if they were complete releases. In particular, Windows-only games are not automatically compatible with macOS.
 
-> **Apple security notice:** These preview builds are not yet Apple Developer ID-signed or notarized. macOS Gatekeeper may block them. A SHA-256 checksum verifies downloaded file integrity; it does not establish Apple trust or notarization. The builds are still undergoing compatibility checks.
+### What is new in 0.13.0?
 
-> **Game availability:** A macOS-compatible launcher does **not** make Windows-only games run on a Mac. Check each game's supported platforms before downloading.
+- Discreet sounds for clicks, navigation and toggles.
+- Sound settings: on/off, volume and preview.
+- Your preferences are stored locally and do not change game audio.
 
-## Release assets
+## Release files and security
 
-| Asset | Meaning |
-| :--- | :--- |
-| `VENSUKO.Launcher_0.13.0_x64-setup.exe` | Windows 64-bit installer |
-| `.exe.sig` | Cryptographic signature for the Windows launcher updater |
-| `latest.json` | **Windows** automatic-update metadata, not a Mac installer |
-| `VENSUKO.Launcher_0.13.0_macos-arm64.dmg` | Apple Silicon preview, **once released** |
-| `VENSUKO.Launcher_0.13.0_macos-x64.dmg` | Intel Mac preview, **once released** |
-| `*.dmg.sha256` | macOS installer checksums, **once released** |
+**Windows assets**
+- `VENSUKO.Launcher_0.13.0_x64-setup.exe` — official Windows 64-bit installer.
+- `VENSUKO.Launcher_0.13.0_x64-setup.exe.sig` — Tauri updater signature (not a Windows publisher signature).
+- `latest.json` — Windows auto-update manifest; **not** a macOS installer.
 
-[All versions](https://github.com/ju53648/lumorix-launcher-releases/releases) · [Latest release](https://github.com/ju53648/lumorix-launcher-releases/releases/latest) · [Public game catalog](https://github.com/ju53648/lumorix-launcher-content) · [Official website](https://lumorix.net)
+> **Windows security notice:** Windows may display an “Unknown publisher” warning because the Windows installer does not currently have a trusted Authenticode publisher certificate. The `.sig` file protects the built-in update process.
+
+The Mac download section will only be enabled when its certified installers are released. No manual macOS updater is currently distributed.
+
+## Official links
+
+[**All releases**](https://github.com/ju53648/lumorix-launcher-releases/releases) · [**Game catalog**](https://github.com/ju53648/lumorix-launcher-content) · [**Official website**](https://lumorix.net)
 
 <details>
-<summary><strong>Deutsch – Download und Hinweise</strong></summary>
+<summary><strong>Deutsch – Download und Plattformen</strong></summary>
 
-**VENSUKO Launcher 0.13.0** bringt dezente Klick- und Navigationssounds, einen Lautstärkeregler, die Möglichkeit zum Deaktivieren und eine Hörprobe.
+### Windows 64 Bit
 
-- **Windows 64 Bit:** [Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe). Die automatische Update-Funktion bleibt erhalten.
-- **Mac mit Apple Silicon:** Eine ARM64-DMG wird vorbereitet. [Verfügbarkeit prüfen](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0).
-- **Intel-Mac:** Eine separate x64-DMG wird vorbereitet. [Verfügbarkeit prüfen](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.0).
+**VENSUKO 0.13.0 ist verfügbar.** [Windows-Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.0/VENSUKO.Launcher_0.13.0_x64-setup.exe). Das Update enthält neue dezente Oberflächensounds mit Lautstärkeregler, Ein-/Ausschalter und Hörprobe.
 
-Die Mac-Versionen sind derzeit **Preview-Builds ohne Apple-Notarisierung**. macOS kann sie blockieren. Updates erfolgen auf dem Mac vorerst manuell. Spiele mit ausschließlich Windows-Unterstützung funktionieren dadurch nicht automatisch auf macOS.
+### macOS – Apple Silicon und Intel
+
+**Noch nicht veröffentlicht.** Eine reguläre Mac-Version ist in Entwicklung. Vor der Freigabe werden die Installationsdateien für beide Architekturen geprüft, mit einer Apple Developer ID signiert, von Apple notarisiert und auf macOS getestet.
+
+Aktuell gibt es keinen freigegebenen Mac-Download. Windows-Spiele sind dadurch nicht automatisch auf einem Mac nutzbar.
 
 </details>
 
 ---
 
-<sub>Official distribution-only repository. Application source, credentials and internal build configuration remain in a separate **private** repository.</sub>
+<sub>Official download repository only. Application source code and internal developer tooling are maintained privately.</sub>
