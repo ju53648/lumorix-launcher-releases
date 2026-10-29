@@ -7,13 +7,13 @@
 Your games, downloads and updates in one desktop launcher.
 
 [![Windows version](https://img.shields.io/badge/Windows-0.13.1-263444)](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.13.1)
-[![macOS version](https://img.shields.io/badge/macOS-0.13.3%20Beta-15897b)](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.13.3-macos)
+[![macOS version](https://img.shields.io/badge/macOS-0.14.0%20Beta-15897b)](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.0-macos)
 ![Mac CPUs](https://img.shields.io/badge/macOS-Intel%20%2B%20Apple%20Silicon-263444)
 ![Official downloads](https://img.shields.io/badge/source-official%20downloads-263444)
 
-### [Download for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.1/VENSUKO.Launcher_0.13.1_x64-setup.exe) · [Download for Mac](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.13.3-macos)
+### [Download for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.1/VENSUKO.Launcher_0.13.1_x64-setup.exe) · [Download for Mac](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.14.0-macos)
 
-**Separate release channels:** Windows stable 0.13.1 · macOS beta 0.13.3. Mac builds are publicly released in [VENSUKO's public content repository](https://github.com/ju53648/lumorix-launcher-content/releases).
+**Separate release channels:** Windows stable 0.13.1 · macOS beta 0.14.0. Mac builds are publicly released in [VENSUKO's public content repository](https://github.com/ju53648/lumorix-launcher-content/releases).
 
 </div>
 
@@ -27,16 +27,16 @@ Your games, downloads and updates in one desktop launcher.
 
 Windows launcher updates use their separate signed updater feed.
 
-### macOS — v0.13.3 Beta
+### macOS — v0.14.0 Beta
 
 | Mac processor | Installer | SHA-256 checksum |
 | :--- | :--- | :--- |
-| **Apple Silicon** (M1, M2, M3, M4, M5) | **[Download Apple Silicon (.dmg)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-arm64.dmg)** | [Verify checksum](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-arm64.dmg.sha256) |
-| **Intel** (x64) | **[Download Intel Mac (.dmg)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-x64.dmg)** | [Verify checksum](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-x64.dmg.sha256) |
+| **Apple Silicon** (M1, M2, M3, M4, M5) | **[Download Apple Silicon (.dmg)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-arm64.dmg)** | [Verify checksum](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-arm64.dmg.sha256) |
+| **Intel** (x64) | **[Download Intel Mac (.dmg)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-x64.dmg)** | [Verify checksum](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-x64.dmg.sha256) |
 
 To identify the processor, choose **Apple menu → About This Mac**.
 
-**Already using Mac version 0.13.1 or 0.13.2?** Install 0.13.3 from the DMG **once** to enable macOS automatic launcher updates. The old Mac test versions cannot detect this update. VENSUKO 0.13.3 uses a separate signed macOS updater feed and can install **future correctly published and signature-verified** updates. It will not change the Windows update channel.
+**Already using Mac version 0.13.3?** Open **About → Check for updates** to install 0.14.0 from the signed macOS feed. If the updater has not refreshed yet, download the 0.14.0 DMG above and replace the existing application in Applications. Older 0.13.1/0.13.2 builds cannot update automatically; use the DMG. Games and cloud profiles remain unchanged. An existing account may need to sign in once because the Mac Keychain service was renamed.
 
 **macOS security:** These are ad-hoc-signed, non-notarized beta builds, not Apple Developer ID-certified releases. The first launch may require approval for the individual app in **System Settings → Privacy & Security → Open Anyway**. Do not disable Gatekeeper globally. Full physical-Mac Keychain/login and auto-update testing is still ongoing.
 
@@ -51,7 +51,7 @@ Some games require their own native macOS builds. For example, PORTLORIA's Windo
 
 ## What's new?
 
-**macOS 0.13.3:** Signed updater archives for both Mac architectures, a dedicated public macOS update feed, native macOS game-platform handling, and automatic checks for subsequent signed updates.
+**macOS 0.14.0:** Windows and macOS now share the same source version. New accounts receive a profile and privacy setup wizard; Friends is easier to navigate; Mac artwork and platform labeling are improved; the Mac Keychain uses the new VENSUKO service.
 
 **Windows 0.13.1:** Expanded UI sounds, 14 short sound cues, dedicated update/download feedback, three sound previews, and default new-installation UI sound volume at 100%. Existing saved preferences remain intact.
 
@@ -66,7 +66,7 @@ Some games require their own native macOS builds. For example, PORTLORIA's Windo
 
 **Windows 64 Bit (0.13.1):** [Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.13.1/VENSUKO.Launcher_0.13.1_x64-setup.exe).
 
-**macOS (0.13.3 Beta):** [Apple Silicon (M1–M5)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-arm64.dmg) · [Intel-Mac](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.13.3-macos/VENSUKO.Launcher_0.13.3_macos-x64.dmg).
+**macOS (0.13.3 Beta):** [Apple Silicon (M1–M5)](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-arm64.dmg) · [Intel-Mac](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.14.0-macos/VENSUKO.Launcher_0.14.0_macos-x64.dmg).
 
 **Wichtig:** Wer noch 0.13.1 oder 0.13.2 auf dem Mac verwendet, muss 0.13.3 einmal manuell installieren. Erst danach kann der Launcher zukünftige veröffentlichte und signierte Mac-Updates automatisch installieren.
 
