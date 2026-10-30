@@ -1,0 +1,46 @@
+name: Update VENSUKO download page
+
+on:
+  release:
+    types: [published, edited, deleted]
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vensuko-download-page
+  cancel-in-progress: false
+
+jobs:
+  sync-downloads:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out live download page
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Find latest complete public Windows and macOS releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/update-download-readme.py
+
+      - name: Validate generated Markdown
+        run: git diff --check
+
+      - name: Commit updated versions and links
+        shell: bash
+        run: |
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs(downloads): sync public VENSUKO releases"
+            git push origin HEAD:main
+          else
+            echo "Download page is already current."
+          fi
