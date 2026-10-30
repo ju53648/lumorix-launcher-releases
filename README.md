@@ -9,23 +9,23 @@ Your games, downloads and updates in one desktop launcher.
 <!-- VENSUKO_RELEASES_START -->
 <!-- Auto-generated from actual public GitHub Releases. Do not edit manually. -->
 
-[![Windows version](https://img.shields.io/badge/Windows-0.15.3-263444)](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.15.3)
+[![Windows version](https://img.shields.io/badge/Windows-0.16.0-263444)](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.16.0)
 [![macOS version](https://img.shields.io/badge/macOS-0.15.2%20Beta-15897b)](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)
 ![Mac CPUs](https://img.shields.io/badge/macOS-Intel%20%2B%20Apple%20Silicon-263444)
 ![Official downloads](https://img.shields.io/badge/source-official%20downloads-263444)
 
-### [Download for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.15.3/VENSUKO.Launcher_0.15.3_x64-setup.exe) · [Download for Mac](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)
+### [Download for Windows](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.16.0/VENSUKO.Launcher_0.16.0_x64-setup.exe) · [Download for Mac](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)
 
-**Available:** Windows 0.15.3 · macOS 0.15.2 Beta. Each platform shows the newest
+**Available:** Windows 0.16.0 · macOS 0.15.2 Beta. Each platform shows the newest
 complete public release; their version numbers may temporarily differ.
 
 ## Downloads
 
-### Windows 64-bit — v0.15.3
+### Windows 64-bit — v0.16.0
 
-**[Download Windows installer (.exe)](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.15.3/VENSUKO.Launcher_0.15.3_x64-setup.exe)**
+**[Download Windows installer (.exe)](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.16.0/VENSUKO.Launcher_0.16.0_x64-setup.exe)**
 
-[Windows release notes](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.15.3) · [Windows signed updater feed](https://github.com/ju53648/lumorix-launcher-releases/releases/latest/download/latest.json)
+[Windows release notes](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.16.0) · [Windows signed updater feed](https://github.com/ju53648/lumorix-launcher-releases/releases/latest/download/latest.json)
 
 ### macOS — v0.15.2 Beta
 
@@ -40,7 +40,7 @@ Check your processor using **Apple menu → About This Mac**.
 
 ## Release channels
 
-- [**Latest Windows release (v0.15.3)**](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.15.3)
+- [**Latest Windows release (v0.16.0)**](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.16.0)
 - [**Latest macOS release (v0.15.2)**](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)
 - [All Windows releases](https://github.com/ju53648/lumorix-launcher-releases/releases)
 - [All macOS releases](https://github.com/ju53648/lumorix-launcher-content/releases)
@@ -49,12 +49,12 @@ Check your processor using **Apple menu → About This Mac**.
 ## What's new?
 
 The release notes always refer to the downloads shown here:
-**[Windows 0.15.3](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.15.3)** · **[macOS 0.15.2](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)**.
+**[Windows 0.16.0](https://github.com/ju53648/lumorix-launcher-releases/releases/tag/v0.16.0)** · **[macOS 0.15.2](https://github.com/ju53648/lumorix-launcher-content/releases/tag/vensuko-launcher-v0.15.2-macos)**.
 
 <details>
 <summary><strong>Deutsch – VENSUKO herunterladen</strong></summary>
 
-**Windows 64 Bit (v0.15.3):** [Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.15.3/VENSUKO.Launcher_0.15.3_x64-setup.exe).
+**Windows 64 Bit (v0.16.0):** [Installer herunterladen](https://github.com/ju53648/lumorix-launcher-releases/releases/download/v0.16.0/VENSUKO.Launcher_0.16.0_x64-setup.exe).
 
 **macOS (v0.15.2 Beta):** [Apple Silicon](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.15.2-macos/VENSUKO.Launcher_0.15.2_macos-arm64.dmg) · [Intel-Mac](https://github.com/ju53648/lumorix-launcher-content/releases/download/vensuko-launcher-v0.15.2-macos/VENSUKO.Launcher_0.15.2_macos-x64.dmg).
 
